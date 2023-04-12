@@ -30,9 +30,11 @@ int main()
     //selects characters to randomize
     r = rand() % 4;
 
+    //password generating for loop
     for(i = 0; i < length; i++)
     {
-	    switch(r){
+	    switch(r)
+	    {
 		    default:
 			    pw[i] = sym[rand() % 29];
 			    r = rand() % 4;
@@ -55,5 +57,7 @@ int main()
 			    break;
 	             }
     }
+	
+    
     return 0;
 }
