@@ -58,6 +58,7 @@ int main()
 	             }
     }
     //Makes a new line cause... why wouldn't it?
+    //Much readability
     printf("\n");
 	
     return 0;
