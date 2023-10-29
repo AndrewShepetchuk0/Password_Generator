@@ -57,8 +57,8 @@ int main()
 			    break;
 	             }
     }
+    //Makes a new line cause... why wouldn't it?
     printf("\n");
 	
-    
     return 0;
 }
